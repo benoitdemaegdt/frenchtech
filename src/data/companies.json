@@ -1,6 +1,7 @@
 [
   {
     "name":  "alan",
+    "url": "https://alan.com/",
     "createdAt": "10/02/2016",
     "stack": {
       "backend": "python",
@@ -10,6 +11,7 @@
   },
   {
     "name":  "blablacar",
+    "url": "https://www.blablacar.fr/",
     "createdAt": "16/09/2006",
     "stack": {
       "backend": "java",
@@ -19,6 +21,7 @@
   },
   {
     "name":  "backmarket",
+    "url": "https://www.backmarket.fr/",
     "createdAt": "12/08/2014",
     "stack": {
       "backend": "python",
@@ -27,6 +30,7 @@
   },
   {
     "name":  "deezer",
+    "url": "https://www.deezer.com",
     "createdAt": "09/04/2009",
     "stack": {
       "backend": "php",
@@ -35,6 +39,7 @@
   },
   {
     "name":  "doctolib",
+    "url": "https://www.doctolib.fr/",
     "createdAt": "01/12/2013",
     "stack": {
       "backend": "ruby",
@@ -43,6 +48,7 @@
   },
   {
     "name":  "frichti",
+    "url": "https://www.frichti.co/",
     "createdAt": "05/05/2015",
     "stack": {
       "backend": "node",
@@ -51,6 +57,7 @@
   },
   {
     "name":  "lunchr",
+    "url": "https://www.lunchr.co/",
     "createdAt": "",
     "stack": {
       "backend": "ruby",
@@ -59,6 +66,7 @@
   },
   {
     "name":  "jobteaser",
+    "url": "https://www.jobteaser.com",
     "createdAt": "01/10/2008",
     "stack": {
       "backend": "ruby",
@@ -67,6 +75,7 @@
   },
   {
     "name":  "klaxoon",
+    "url": "https://klaxoon.com",
     "createdAt": "23/12/2014",
     "stack": {
       "backend": "php",
@@ -75,6 +84,7 @@
   },
   {
     "name":  "manomano",
+    "url": "https://www.manomano.fr/",
     "createdAt": "26/07/2012",
     "stack": {
       "backend": "php",
@@ -83,6 +93,7 @@
   },
   {
     "name":  "payfit",
+    "url": "https://payfit.com",
     "createdAt": "14/09/2015",
     "stack": {
       "backend": "node",
@@ -91,6 +102,7 @@
   },
   {
     "name":  "shine",
+    "url": "https://www.shine.fr",
     "createdAt": "",
     "stack": {
       "backend": "node",
@@ -99,6 +111,7 @@
   },
   {
     "name":  "qonto",
+    "url": "https://qonto.eu",
     "createdAt": "",
     "stack": {
       "backend": "ruby",
@@ -107,6 +120,7 @@
   },
   {
     "name":  "kapten",
+    "url": "https://www.kapten.com",
     "createdAt": "",
     "stack": {
       "backend": "node",
@@ -115,6 +129,7 @@
   },
   {
     "name":  "spendesk",
+    "url": "https://www.spendesk.com",
     "createdAt": "",
     "stack": {
       "backend": "node",
@@ -123,6 +138,7 @@
   },
   {
     "name":  "abtasty",
+    "url": "https://www.abtasty.com",
     "createdAt": "",
     "stack": {
       "backend": "php",
@@ -131,6 +147,7 @@
   },
   {
     "name":  "welcometothejungle",
+    "url": "https://www.welcometothejungle.com",
     "createdAt": "",
     "stack": {
       "backend": "ruby",
@@ -139,6 +156,7 @@
   },
   {
     "name":  "algolia",
+    "url": "https://www.algolia.com/",
     "createdAt": "",
     "stack": {
       "backend": "ruby",
@@ -147,6 +165,7 @@
   },
   {
     "name":  "meero",
+    "url": "https://www.meero.com",
     "createdAt": "14/02/2014",
     "stack": {
       "backend": "php",
@@ -155,6 +174,7 @@
   },
   {
     "name":  "wynd",
+    "url": "https://www.wynd.eu",
     "createdAt": "11/02/2013",
     "stack": {
       "backend": "php",
@@ -163,6 +183,7 @@
   },
   {
     "name":  "october",
+    "url": "https://fr.october.eu",
     "createdAt": "09/09/2014",
     "stack": {
       "backend": "node",
@@ -171,6 +192,7 @@
   },
   {
     "name":  "younited credit",
+    "url": "https://www.younited-credit.com/",
     "createdAt": "21/10/2009",
     "stack": {
       "backend": "c#",
@@ -179,6 +201,7 @@
   },
   {
     "name":  "luko",
+    "url": "https://www.luko.eu",
     "createdAt": "",
     "stack": {
       "backend": "python",

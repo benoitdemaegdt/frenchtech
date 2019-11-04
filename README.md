@@ -1,4 +1,5 @@
 # frenchtech
+some insights about few successful french startups.
 
 ## Project setup
 ```
