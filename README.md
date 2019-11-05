@@ -1,6 +1,12 @@
 # frenchtech
 some insights about few successful french startups.
 
+## Why this project ?
+I created this project for 3 main reasons :
+- As a developer, I like to know what technologies top companies are using.
+- I want to improve my front-end / data visualization skills (VueJS / Chart.js)
+- I want to give Github Pages a try
+
 ## Project setup
 ```
 npm install

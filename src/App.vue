@@ -2,6 +2,7 @@
   <div id="app">
     <h1>Analyse de la stack technique de quelques startups de la frenchtech</h1>
     <p>Cette page vise à livrer quelques analyses portant sur des startups françaises à succès.</p>
+    <img src='./assets/tech.jpg'>
     <h2>Échantillon</h2>
     <p>Les {{companies.length}} startups de cet échantillon ont été sélectionnées de manière arbitraire. Globalement, il s'agit d'entreprises innovantes, ayant un ADN "tech" qui ont levé beaucoup d'argent. L'échantillon d'analyse est ainsi composé des startups suivantes :</p>
     <list :companies="companies"></list>
@@ -114,7 +115,13 @@ export default {
 /* If the screen size is 601px wide or more, set max-width to 80%  */
 @media screen and (min-width: 601px) {
   #app {
-    max-width: 80%;
+    max-width: 700px;
+  }
+  p {
+    font-size: 21px;
+  }
+  a {
+    font-size: 21px;
   }
 }
 
@@ -122,6 +129,12 @@ export default {
 @media screen and (max-width: 600px) {
   #app {
     max-width: 100%;
+  }
+  p {
+    font-size: 18px;
+  }
+  a {
+    font-size: 18px;
   }
 }
 
@@ -131,9 +144,14 @@ a {
 a:hover {
   color: #f87979;
 }
-
 p {
   text-align: left;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 </style>
