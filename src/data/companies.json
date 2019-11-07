@@ -219,5 +219,29 @@
       "frontend": "angular",
       "infra": "aws"
     }
+  },
+  {
+    "name": "drivy",
+    "url": "https://fr.getaround.com/",
+    "createdAt": "",
+    "stack": {
+      "backend": "ruby",
+      "framework": "rails",
+      "database": "mySQL",
+      "frontend": "react",
+      "infra": "heroku"
+    }
+  },
+  {
+    "name": "yuka",
+    "url": "https://yuka.io/",
+    "createdAt": "",
+    "stack": {
+      "backend": "php",
+      "framework": "symfony",
+      "database": "",
+      "frontend": "vue",
+      "infra": "digitalocean"
+    }
   }
 ]
