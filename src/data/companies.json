@@ -243,5 +243,35 @@
       "frontend": "vue",
       "infra": "digitalocean"
     }
+  },
+  {
+    "name": "malt",
+    "url": "https://www.malt.fr/",
+    "createdAt": "",
+    "stack": {
+      "backend": "java",
+      "framework": "spring",
+      "database": "mongo",
+      "frontend": "vue",
+      "infra": "gcp"
+    },
+    "funding": [
+      {
+        "year": 2014,
+        "amount": "550000"
+      },
+      {
+        "year": 2015,
+        "amount": "1500000"
+      },
+      {
+        "year": 2016,
+        "amount": "5000000"
+      },
+      {
+        "year": 2019,
+        "amount": "25000000"
+      }
+    ]
   }
 ]
