@@ -9,10 +9,10 @@
     <h2>Source des données</h2>
     <p>Les données à l'origine des graphes présents sur cette page ont été collectées "à la main" en novembre 2019. Elles proviennent de différentes sources telles que : le site web des startups, leur blog technique, leur page welcome to the jungle, leurs offres d'emploi à destination des développeurs ...</p>
     <h2>Backend</h2>
-    <p>Quels sont les languages majoritairement utilisés côté serveur par les startups à succès ?</p>
+    <p>Quels sont les langages majoritairement utilisés côté serveur par les startups à succès ?</p>
     <bar-chart :chartData='backendData' :styles="chartHeight"></bar-chart>
     <h2>Frontend</h2>
-    <p>Quels sont les languages majoritairement utilisés côté client par les startups à succès ?</p>
+    <p>Quels sont les langages majoritairement utilisés côté client par les startups à succès ?</p>
     <bar-chart :chartData='frontendData' :styles="chartHeight"></bar-chart>
   </div>
 </template>
