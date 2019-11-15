@@ -16,7 +16,7 @@
     "stack": {
       "backend": "java",
       "frontend": "react",
-      "database": "mySQL"
+      "database": "mysql"
     }
   },
   {
@@ -227,7 +227,7 @@
     "stack": {
       "backend": "ruby",
       "framework": "rails",
-      "database": "mySQL",
+      "database": "mysql",
       "frontend": "react",
       "infra": "heroku"
     }
@@ -271,6 +271,54 @@
       {
         "year": 2019,
         "amount": "25000000"
+      }
+    ]
+  },
+  {
+    "name": "lydia",
+    "url": "https://lydia-app.com/",
+    "createdAt": "",
+    "stack": {
+      "backend": "php",
+      "framework": "symfony",
+      "database": "mysql",
+      "frontend": "react",
+      "infra": "gcp"
+    },
+    "funding": [
+      {
+        "year": 2014,
+        "amount": "3600000"
+      },
+      {
+        "year": 2016,
+        "amount": "7000000"
+      },
+      {
+        "year": 2018,
+        "amount": "13000000"
+      }
+    ]
+  },
+  {
+    "name": "georges",
+    "url": "https://www.georges.tech/",
+    "createdAt": "",
+    "stack": {
+      "backend": "node",
+      "framework": "express",
+      "database": "mongo",
+      "frontend": "vue",
+      "infra": "heroku"
+    },
+    "funding": [
+      {
+        "year": 2018,
+        "amount": "1000000"
+      },
+      {
+        "year": 2019,
+        "amount": "10000000"
       }
     ]
   }
