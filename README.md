@@ -1,6 +1,8 @@
 # frenchtech
 some insights about few successful french startups.
 
+https://benoitdemaegdt.github.io/frenchtech/
+
 ## Why this project ?
 I created this project for 3 main reasons :
 - As a developer, I like to know what technologies top companies are using.

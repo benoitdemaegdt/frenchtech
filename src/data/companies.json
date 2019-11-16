@@ -321,5 +321,67 @@
         "amount": "10000000"
       }
     ]
+  },
+  {
+    "name": "doctrine",
+    "url": "https://www.doctrine.fr/",
+    "createdAt": "",
+    "stack": {
+      "backend": "node",
+      "framework": "express",
+      "database": "postgresql",
+      "frontend": "react",
+      "infra": "aws"
+    },
+    "funding": [
+      {
+        "year": 2016,
+        "amount": "2000000"
+      },
+      {
+        "year": 2018,
+        "amount": "10000000"
+      }
+    ]
+  },
+  {
+    "name": "legalstart",
+    "url": "https://www.legalstart.fr/",
+    "createdAt": "",
+    "stack": {
+      "backend": "python",
+      "framework": "django",
+      "database": "postgresql",
+      "frontend": "react",
+      "infra": "heroku"
+    },
+    "funding": [
+      {
+        "year": 2019,
+        "amount": "20000000"
+      }
+    ]
+  },
+  {
+    "name": "hyperlex",
+    "url": "https://hyperlex.ai/",
+    "createdAt": "",
+    "stack": {
+      "backend": "node",
+      "framework": "",
+      "database": "postgresql",
+      "frontend": "vue",
+      "infra": "gcp"
+    },
+    "funding": [
+      {
+        "year": 2018,
+        "amount": "1000000"
+      },
+      {
+        "year": 2019,
+        "amount": "4000000"
+      }
+    ]
   }
 ]
