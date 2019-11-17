@@ -503,5 +503,36 @@
         "amount": "4000000"
       }
     ]
+  },
+  {
+    "name": "iadvize",
+    "url": "https://www.iadvize.com/",
+    "createdAt": 2010,
+    "headquarter": "nantes",
+    "stack": {
+      "backend": "scala",
+      "framework": "play",
+      "database": "postgresql",
+      "frontend": "react",
+      "infra": "aws"
+    },
+    "funding": [
+      {
+        "year": 2010,
+        "amount": "100000"
+      },
+      {
+        "year": 2012,
+        "amount": "1000000"
+      },
+      {
+        "year": 2015,
+        "amount": "14000000"
+      },
+      {
+        "year": 2017,
+        "amount": "32000000"
+      }
+    ]
   }
 ]

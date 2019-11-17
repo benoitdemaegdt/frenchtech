@@ -82,7 +82,7 @@ export default {
         labels: Object.keys(headquarters),
         datasets: [
           {
-            backgroundColor: ['#f87979', '#4FC3F7', '#1DE9B6'],
+            backgroundColor: ['#f87979', '#4FC3F7', '#1DE9B6', '#AB47BC', '#EF5350', '#EC407A'],
             borderWidth: 1,
             data: Object.values(headquarters),
           },
