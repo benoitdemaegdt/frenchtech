@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Analyse de la stack technique de quelques startups de la frenchtech</h1>
+    <h1>Analyse de quelques startups de la frenchtech</h1>
     <p>Cette page vise à livrer quelques analyses portant sur des startups françaises à succès.</p>
     <img src='./assets/tech.jpg'>
     <h2>Échantillon</h2>
