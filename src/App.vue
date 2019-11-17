@@ -8,6 +8,9 @@
     <list :companies="companies"></list>
     <h2>Source des données</h2>
     <p>Les données à l'origine des graphes présents sur cette page ont été collectées "à la main" en novembre 2019. Elles proviennent de différentes sources telles que : le site web des startups, leur blog technique, leur page welcome to the jungle, leurs offres d'emploi à destination des développeurs ...</p>
+    <h2>Date de création</h2>
+    <p>En quelle année ont été créées les startups françaises à succès ?</p>
+    <line-chart :chartData='createdAtData' :styles="chartHeight"></line-chart>
     <h2>Backend</h2>
     <p>Quels sont les langages majoritairement utilisés côté serveur par les startups à succès ?</p>
     <bar-chart :chartData='backendData' :styles="chartHeight"></bar-chart>
@@ -20,12 +23,14 @@
 <script>
 import companies from './data/companies.json';
 import BarChart from './components/BarChart.vue';
+import LineChart from './components/LineChart.vue';
 import List from './components/List.vue';
 
 export default {
   name: 'app',
   components: {
     BarChart,
+    LineChart,
     List
   },
   mounted() {
@@ -34,11 +39,34 @@ export default {
   data() {
     return {
       companies: [],
+      createdAtData: this.formatCreatedAtData(),
       backendData: this.formatBackendData(),
       frontendData: this.formatFrontendData(),
     };
   },
   methods: {
+    formatCreatedAtData() {
+      let minYear = Math.min(...companies.map(company => company.createdAt));
+      let maxYear = Math.max(...companies.map(company => company.createdAt));
+      const labels = Array(maxYear - minYear + 1).fill().map((_, idx) => minYear + idx);
+      const data = {};
+      for (let label of labels) {
+        data[label] = companies.filter(company => company.createdAt === label).length;
+      }
+      return {
+        labels,
+        datasets: [
+          {
+            label: 'créations',
+            backgroundColor: '#f87979',
+            pointBackgroundColor: 'white',
+            borderWidth: 1,
+            pointBorderColor: '#249EBF',
+            data: Object.values(data),
+          }
+        ]
+      }
+    },
     formatBackendData() {
       let languages = {};
       companies.forEach((company) => {

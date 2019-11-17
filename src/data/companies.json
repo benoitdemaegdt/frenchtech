@@ -2,17 +2,31 @@
   {
     "name": "alan",
     "url": "https://alan.com/",
-    "createdAt": "10/02/2016",
+    "createdAt": 2016,
     "stack": {
       "backend": "python",
       "frontend": "react",
       "database": "postgreSQL"
-    }
+    },
+    "funding": [
+      {
+        "year": 2016,
+        "amount": "12000000"
+      },
+      {
+        "year": 2018,
+        "amount": "23000000"
+      },
+      {
+        "year": 2019,
+        "amount": "40000000"
+      }
+    ]
   },
   {
     "name": "blablacar",
     "url": "https://www.blablacar.fr/",
-    "createdAt": "16/09/2006",
+    "createdAt": 2006,
     "stack": {
       "backend": "java",
       "frontend": "react",
@@ -22,34 +36,80 @@
   {
     "name": "backmarket",
     "url": "https://www.backmarket.fr/",
-    "createdAt": "12/08/2014",
+    "createdAt": 2014,
     "stack": {
       "backend": "python",
       "frontend": "vue"
-    }
+    },
+    "funding": [
+      {
+        "year": 2015,
+        "amount": "300000"
+      },
+      {
+        "year": 2017,
+        "amount": "7000000"
+      },
+      {
+        "year": 2018,
+        "amount": "41000000"
+      }
+    ]
   },
   {
     "name": "deezer",
     "url": "https://www.deezer.com",
-    "createdAt": "09/04/2009",
+    "createdAt": 2007,
     "stack": {
       "backend": "php",
       "frontend": "react"
-    }
+    },
+    "funding": [
+      {
+        "year": 2018,
+        "amount": "160000000"
+      }
+    ]
   },
   {
     "name": "doctolib",
     "url": "https://www.doctolib.fr/",
-    "createdAt": "01/12/2013",
+    "createdAt": 2013,
     "stack": {
       "backend": "ruby",
       "frontend": "react"
-    }
+    },
+    "funding": [
+      {
+        "year": 2014,
+        "amount": "1000000"
+      },
+      {
+        "year": 2014,
+        "amount": "4000000"
+      },
+      {
+        "year": 2015,
+        "amount": "18000000"
+      },
+      {
+        "year": 2017,
+        "amount": "26000000"
+      },
+      {
+        "year": 2017,
+        "amount": "35000000"
+      },
+      {
+        "year": 2019,
+        "amount": "150000000"
+      }
+    ]
   },
   {
     "name": "frichti",
     "url": "https://www.frichti.co/",
-    "createdAt": "05/05/2015",
+    "createdAt": 2015,
     "stack": {
       "backend": "node",
       "frontend": "react"
@@ -58,16 +118,30 @@
   {
     "name": "lunchr",
     "url": "https://www.lunchr.co/",
-    "createdAt": "",
+    "createdAt": 2016,
     "stack": {
       "backend": "ruby",
       "frontend": "react"
-    }
+    },
+    "funding": [
+      {
+        "year": 2017,
+        "amount": "2500000"
+      },
+      {
+        "year": 2018,
+        "amount": "11000000"
+      },
+      {
+        "year": 2019,
+        "amount": "30000000"
+      }
+    ]
   },
   {
     "name": "jobteaser",
     "url": "https://www.jobteaser.com",
-    "createdAt": "01/10/2008",
+    "createdAt": 2008,
     "stack": {
       "backend": "ruby",
       "frontend": "react"
@@ -76,7 +150,7 @@
   {
     "name": "klaxoon",
     "url": "https://klaxoon.com",
-    "createdAt": "23/12/2014",
+    "createdAt": 2014,
     "stack": {
       "backend": "php",
       "frontend": "react"
@@ -85,7 +159,7 @@
   {
     "name": "manomano",
     "url": "https://www.manomano.fr/",
-    "createdAt": "26/07/2012",
+    "createdAt": 2013,
     "stack": {
       "backend": "php",
       "frontend": "react"
@@ -94,7 +168,7 @@
   {
     "name": "payfit",
     "url": "https://payfit.com",
-    "createdAt": "14/09/2015",
+    "createdAt": 2015,
     "stack": {
       "backend": "node",
       "frontend": "react"
@@ -103,7 +177,7 @@
   {
     "name": "shine",
     "url": "https://www.shine.fr",
-    "createdAt": "",
+    "createdAt": 2017,
     "stack": {
       "backend": "node",
       "frontend": "react"
@@ -112,7 +186,7 @@
   {
     "name": "qonto",
     "url": "https://qonto.eu",
-    "createdAt": "",
+    "createdAt": 2016,
     "stack": {
       "backend": "ruby",
       "frontend": "emberJS"
@@ -121,7 +195,7 @@
   {
     "name": "kapten",
     "url": "https://www.kapten.com",
-    "createdAt": "",
+    "createdAt": 2011,
     "stack": {
       "backend": "node",
       "frontend": "react"
@@ -130,7 +204,7 @@
   {
     "name": "spendesk",
     "url": "https://www.spendesk.com",
-    "createdAt": "",
+    "createdAt": 2016,
     "stack": {
       "backend": "node",
       "frontend": "react"
@@ -139,7 +213,7 @@
   {
     "name": "abtasty",
     "url": "https://www.abtasty.com",
-    "createdAt": "",
+    "createdAt": 2009,
     "stack": {
       "backend": "php",
       "frontend": "react"
@@ -148,7 +222,7 @@
   {
     "name": "welcometothejungle",
     "url": "https://www.welcometothejungle.com",
-    "createdAt": "",
+    "createdAt": 2014,
     "stack": {
       "backend": "ruby",
       "frontend": "react"
@@ -157,7 +231,7 @@
   {
     "name": "algolia",
     "url": "https://www.algolia.com/",
-    "createdAt": "",
+    "createdAt": 2012,
     "stack": {
       "backend": "ruby",
       "frontend": "react"
@@ -166,7 +240,7 @@
   {
     "name": "meero",
     "url": "https://www.meero.com",
-    "createdAt": "14/02/2014",
+    "createdAt": 2016,
     "stack": {
       "backend": "php",
       "frontend": "vue"
@@ -175,7 +249,7 @@
   {
     "name": "wynd",
     "url": "https://www.wynd.eu",
-    "createdAt": "11/02/2013",
+    "createdAt": 2013,
     "stack": {
       "backend": "php",
       "frontend": "react"
@@ -184,7 +258,7 @@
   {
     "name": "october",
     "url": "https://fr.october.eu",
-    "createdAt": "09/09/2014",
+    "createdAt": 2014,
     "stack": {
       "backend": "node",
       "frontend": "emberJS"
@@ -193,7 +267,7 @@
   {
     "name": "younited credit",
     "url": "https://www.younited-credit.com/",
-    "createdAt": "21/10/2009",
+    "createdAt": 2009,
     "stack": {
       "backend": "c#",
       "frontend": "react"
@@ -202,7 +276,7 @@
   {
     "name": "luko",
     "url": "https://www.luko.eu",
-    "createdAt": "",
+    "createdAt": 2016,
     "stack": {
       "backend": "python",
       "frontend": "vue",
@@ -212,7 +286,7 @@
   {
     "name": "papernest",
     "url": "https://www.papernest.com/",
-    "createdAt": "",
+    "createdAt": 2015,
     "stack": {
       "backend": "python",
       "framework": "django",
@@ -223,7 +297,7 @@
   {
     "name": "drivy",
     "url": "https://fr.getaround.com/",
-    "createdAt": "",
+    "createdAt": 2010,
     "stack": {
       "backend": "ruby",
       "framework": "rails",
@@ -235,7 +309,7 @@
   {
     "name": "yuka",
     "url": "https://yuka.io/",
-    "createdAt": "",
+    "createdAt": 2017,
     "stack": {
       "backend": "php",
       "framework": "symfony",
@@ -247,7 +321,7 @@
   {
     "name": "malt",
     "url": "https://www.malt.fr/",
-    "createdAt": "",
+    "createdAt": 2013,
     "stack": {
       "backend": "java",
       "framework": "spring",
@@ -277,7 +351,7 @@
   {
     "name": "lydia",
     "url": "https://lydia-app.com/",
-    "createdAt": "",
+    "createdAt": 2011,
     "stack": {
       "backend": "php",
       "framework": "symfony",
@@ -303,7 +377,7 @@
   {
     "name": "georges",
     "url": "https://www.georges.tech/",
-    "createdAt": "",
+    "createdAt": 2016,
     "stack": {
       "backend": "node",
       "framework": "express",
@@ -325,7 +399,7 @@
   {
     "name": "doctrine",
     "url": "https://www.doctrine.fr/",
-    "createdAt": "",
+    "createdAt": 2016,
     "stack": {
       "backend": "node",
       "framework": "express",
@@ -347,7 +421,7 @@
   {
     "name": "legalstart",
     "url": "https://www.legalstart.fr/",
-    "createdAt": "",
+    "createdAt": 2012,
     "stack": {
       "backend": "python",
       "framework": "django",
@@ -365,7 +439,7 @@
   {
     "name": "hyperlex",
     "url": "https://hyperlex.ai/",
-    "createdAt": "",
+    "createdAt": 2017,
     "stack": {
       "backend": "node",
       "framework": "",
