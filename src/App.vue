@@ -9,8 +9,11 @@
     <h2>Source des données</h2>
     <p>Les données à l'origine des graphes présents sur cette page ont été collectées "à la main" en novembre 2019. Elles proviennent de différentes sources telles que : le site web des startups, leur blog technique, leur page welcome to the jungle, leurs offres d'emploi à destination des développeurs ...</p>
     <h2>Date de création</h2>
-    <p>En quelle année ont été créées les startups françaises à succès ?</p>
+    <p>En quelles années ont été créées les startups françaises à succès ?</p>
     <line-chart :chartData='createdAtData' :styles="chartHeight"></line-chart>
+    <h2>Siège social</h2>
+    <p>Ou sont situés les sièges sociaux des startups françaises à succès ?</p>
+    <doughnut-chart :chartData='headquarterData' :styles="chartHeight"></doughnut-chart>
     <h2>Backend</h2>
     <p>Quels sont les langages majoritairement utilisés côté serveur par les startups à succès ?</p>
     <bar-chart :chartData='backendData' :styles="chartHeight"></bar-chart>
@@ -25,13 +28,15 @@ import companies from './data/companies.json';
 import BarChart from './components/BarChart.vue';
 import LineChart from './components/LineChart.vue';
 import List from './components/List.vue';
+import DoughnutChart from './components/DoughnutChart.vue';
 
 export default {
   name: 'app',
   components: {
     BarChart,
     LineChart,
-    List
+    List,
+    DoughnutChart
   },
   mounted() {
     this.companies = companies;
@@ -40,6 +45,7 @@ export default {
     return {
       companies: [],
       createdAtData: this.formatCreatedAtData(),
+      headquarterData : this.formatHeadquarterData(),
       backendData: this.formatBackendData(),
       frontendData: this.formatFrontendData(),
     };
@@ -65,6 +71,22 @@ export default {
             data: Object.values(data),
           }
         ]
+      }
+    },
+    formatHeadquarterData() {
+      let headquarters = {};
+      companies.forEach((company) => {
+        headquarters[company.headquarter] = (headquarters[company.headquarter] || 0) + 1;
+      });
+      return {
+        labels: Object.keys(headquarters),
+        datasets: [
+          {
+            backgroundColor: ['#f87979', '#4FC3F7', '#1DE9B6'],
+            borderWidth: 1,
+            data: Object.values(headquarters),
+          },
+        ],
       }
     },
     formatBackendData() {
