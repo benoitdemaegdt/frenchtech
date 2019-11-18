@@ -534,5 +534,32 @@
         "amount": "32000000"
       }
     ]
+  },
+  {
+    "name": "bankin",
+    "url": "https://bankin.com/",
+    "createdAt": 2011,
+    "headquarter": "paris",
+    "stack": {
+      "backend": "java",
+      "framework": "spring",
+      "database": "mysql",
+      "frontend": "N/A",
+      "infra": "aws"
+    },
+    "funding": [
+      {
+        "year": 2015,
+        "amount": "1400000"
+      },
+      {
+        "year": 2016,
+        "amount": "7000000"
+      },
+      {
+        "year": 2019,
+        "amount": "20000000"
+      }
+    ]
   }
 ]
