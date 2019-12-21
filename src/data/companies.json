@@ -318,7 +318,13 @@
       "backend": "python",
       "frontend": "vue",
       "infra": "aws"
-    }
+    },
+    "funding": [
+      {
+        "year": 2019,
+        "amount": "20000000"
+      }
+    ]
   },
   {
     "name": "papernest",
@@ -544,7 +550,7 @@
       "backend": "java",
       "framework": "spring",
       "database": "mysql",
-      "frontend": "N/A",
+      "frontend": "mobile",
       "infra": "aws"
     },
     "funding": [
@@ -559,6 +565,52 @@
       {
         "year": 2019,
         "amount": "20000000"
+      }
+    ]
+  },
+  {
+    "name": "leavy",
+    "url": "http://leavy.co/",
+    "createdAt": 2018,
+    "headquarter": "paris",
+    "stack": {
+      "backend": "node",
+      "framework": "",
+      "database": "",
+      "frontend": "mobile",
+      "infra": ""
+    },
+    "funding": [
+      {
+        "year": 2019,
+        "amount": "12200000"
+      }
+    ]
+  },
+  {
+    "name": "heetch",
+    "url": "https://www.heetch.com/",
+    "createdAt": 2013,
+    "headquarter": "paris",
+    "stack": {
+      "backend": "go",
+      "framework": "",
+      "database": "postgreSQL",
+      "frontend": "mobile",
+      "infra": "aws"
+    },
+    "funding": [
+      {
+        "year": 2017,
+        "amount": "10000000"
+      },
+      {
+        "year": 2018,
+        "amount": "16500000"
+      },
+      {
+        "year": 2019,
+        "amount": "34000000"
       }
     ]
   }
